@@ -1,4 +1,4 @@
-Certainly! Below is a simple template for a README file for your calculator application. You can use this template as a starting point and customize it to match the specifics of your project.
+
 
 Calculator App
 Calculator App Screenshot
