@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
+}
+
+.App {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  background-color: #daf0ff;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculator {
+  background-color: #17181a;
+  height: 65vh;
+  width: 22rem;
+  border-radius: 39px;
+  padding: 33px;
+}
+
+.display {
+  height: 30%;
+  width: 100%;
+  text-align: right;
+  display: grid;
+  align-items: center;
+}
+
+/* .displayContainer {
+  line-height: 6px;
+  height: 100%;
+} */
+
+.working {
+  color: #818181;
+  font-size: 24px;
+  margin-bottom: 6px;
+}
+
+.answer {
+  font-size: 48px;
+  color: #ffffff;
+}
+
+.keys {
+  display: grid;
+  grid-template-columns: 75% 25%;
+  width: 100%;
+  height: 70%;
+}
+
+/* .col {
+  display: grid;
+  grid-template-columns: 80% 20%;
+} */
+
+.numberKeys {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.numbers,
+.signs,
+.topSigns {
+  font-size: 32px;
+  color: #29a8ff;
+  background-color: #303136;
+  height: 60px;
+  width: 62px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 16px;
+}
+
+.topSigns {
+  background-color: #606060;
+  color: #a4a4a4;
+  cursor: pointer;
+}
+
+.signkeys {
+  display: flex;
+  justify-content: space-between;
+}
+
+.signs {
+  background-color: #005db2;
+  cursor: pointer;
+}
+
+.sideSign {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 1rem;
+  /* justify-content: space-evenly; */
+}
+
+.numbers {
+  /* margin-right: 20px; */
+  margin-top: 20px;
+  cursor: pointer;
+}
